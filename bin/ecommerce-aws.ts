@@ -35,7 +35,7 @@ const loadBalancerStack = new LoadBalancerStack(app, "LoadBalancer", {
   env: env,
   tags: tagsInfra,
   vpc: vpcStack.vpc,
-});
+});y8
 loadBalancerStack.addDependency(vpcStack);
 
 // Cluster ECS Component
